@@ -4,7 +4,7 @@ A subset of the [Open Food Facts](https://world.openfoodfacts.org) database: spo
 products (protein powders, protein bars, shakes, energy and recovery products) of brands sold in
 Hungary and Central Europe, as used by the groQu app's built-in food catalogue.
 
-- `off-sports-extract.json` – the extract (retrieved 2026-10-07 via the Open Food Facts API).
+- `off-sports-extract.json` – the extract (retrieved 2026-10-07 and 2026-10-08 via the Open Food Facts API).
 - `build-off-extract.py` – the script that produced it (Python standard library only).
 
 The app bundles the products that have known energy and either at least 10 g protein per 100 g
