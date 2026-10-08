@@ -1,9 +1,11 @@
-# groQu – Open Food Facts sports nutrition extract
+# groQu – Open Food Facts extracts
 
 A subset of the [Open Food Facts](https://world.openfoodfacts.org) database: sports nutrition
 products (protein powders, protein bars, shakes, energy and recovery products) of brands sold in
 Hungary and Central Europe, as used by the groQu app's built-in food catalogue.
 
+- `off-hu-extract.json` – everyday products sold in Hungary (dairy, sweets, cold cuts, drinks, bakery…), retrieved 2026-10-08; `build-off-hu-extract.py` made it.
+- `names/off-hu-names-hu-en.tsv` – their Hungarian and English names used by the app.
 - `off-sports-extract.json` – the extract (retrieved 2026-10-07 and 2026-10-08 via the Open Food Facts API).
 - `names/off-names-hu-en.tsv` – the Hungarian and English product names used by the app (code, Hungarian name, English name; tab-separated).
 - `build-off-extract.py` – the script that produced it (Python standard library only).
