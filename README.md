@@ -5,6 +5,7 @@ products (protein powders, protein bars, shakes, energy and recovery products) o
 Hungary and Central Europe, as used by the groQu app's built-in food catalogue.
 
 - `off-sports-extract.json` – the extract (retrieved 2026-10-07 and 2026-10-08 via the Open Food Facts API).
+- `names/off-names-hu-en.tsv` – the Hungarian and English product names used by the app (code, Hungarian name, English name; tab-separated).
 - `build-off-extract.py` – the script that produced it (Python standard library only).
 
 The app bundles the products that have known energy and either at least 10 g protein per 100 g
